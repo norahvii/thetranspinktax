@@ -16,17 +16,17 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = BASE_DIR / 'core' / 'templates'
-STATIC_DIR = BASE_DIR / 'core' / 'static'
+STATIC_DIR = '/var/www/html/static/'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-1bie)r+5q#+x38@kq+!v#5r43g%n8-(zuuld7bx(@^w9=j^y)2'
+SECRET_KEY = 'secret'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-ALLOWED_HOSTS = ['thetranspinktax.site','www.thetranspinktax.site','http://127.0.0.1:8000','127.0.0.1']
+DEBUG = False
+ALLOWED_HOSTS = ['thetranspinktax.site','www.thetranspinktax.site','127.0.0.1','localhost']
 
 # Application definition
 
